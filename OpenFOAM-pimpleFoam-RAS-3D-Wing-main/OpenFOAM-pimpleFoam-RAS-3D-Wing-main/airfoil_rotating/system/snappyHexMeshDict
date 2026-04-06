@@ -35,7 +35,7 @@ castellatedMeshControls
     features
     (
         { file "AMI.eMesh"; level 2;}
-        { file "wing.eMesh"; level 4;} 
+        { file "wing.eMesh"; level 3;} 
     );
 
     refinementSurfaces
@@ -51,7 +51,7 @@ castellatedMeshControls
 		
         wing
 		{ 
-			level (4 4);
+			level (3 3);
 		} 
     }
 
